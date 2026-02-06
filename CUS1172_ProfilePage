@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ryan Varghese - Profile Page</title>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h2 {
+            color: darkred;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="css/mycss_web.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="css/mycss_web.css" media="print">
+</head>
+<body>
+
+<!-- Menu Section -->
+<p>
+    <a href="#basic-info">Profile</a> |
+    <a href="#education">Education</a> |
+    <a href="#experience">Experience</a> |
+    <a href="#skills">Skills</a> |
+    <a href="#interests">Interests</a> |
+    <a href="#favorites">Favorites</a> |
+    <a href="#websites">Websites</a> |
+    <a href="#projects">Projects</a> |
+    <a href="#contact">Contact</a>
+</p>
+
+<!-- Basic Profile Information -->
+<div id="basic-info">
+    <h1 style="color: darkblue;">Ryan Varghese</h1>
+    <p>Major: <span>Computer Science</span></p>
+    <img src="images/IMG_2891.jpeg" alt="Profile Picture" width="200">
+    <img src="https://images.unsplash.com/photo-1624554305378-0f440dd3a8c1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=anil-jose-xavier-Tp-kViKErbw-unsplash.jpg"
+     alt="Third-party image from Unsplash"
+     width="200">
+</div>
+
+<!-- Education Summary -->
+<div id="education">
+    <h2>Education</h2>
+    <p>I am currently a Junior studying Computer Science at St. John's University.</p>
+    <table border="1">
+        <tr>
+            <th>Degree</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>BS Computer Science</td>
+            <td>2026</td>
+        </tr>
+    </table>
+</div>
+
+<!-- Work Experience / Internships -->
+<div id="experience">
+    <h2>Experience</h2>
+    <ul>
+        <li>Blink Fitness - Front Desk Associate</li>
+        <li>Telehealth Company - Patient Health Coordinator</li>
+    </ul>
+</div>
+
+<!-- Programming Skills -->
+<div id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Java - Intermediate</li>
+        <li>Python - Beginner</li>
+        <li>HTML - Beginner</li>
+    </ul>
+</div>
+
+<!-- General Interests -->
+<div id="interests">
+    <h2>Interests</h2>
+    <p>I enjoy going to the gym, hanging out with friends and family, and going out to eat.</p>
+</div>
+
+<!-- Favorite Song, Movie, TV Show -->
+<div id="favorites">
+    <h2>Favorites</h2>
+
+    <p>Song: Passionfruit by Drake</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/COz9lDCFHjw?si=pm9ZG4bI0yhixJPH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+    <p>Movie: Prisoners</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bpXfcTF6iVk?si=z47HPozMQANgKYpu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <p>TV Show: The Sopranos</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CKLor3gpaPo?si=3XdbNSkxrs9PY0qW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<!-- Favorite Websites -->
+<div id="websites">
+    <h2>Favorite Websites</h2>
+    <ul>
+        <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Helps troubleshoot questions and concerns I have</li>
+        <li><a href="https://www.nytimes.com" target="_blank">New York Times</a> - Keeps me posted on top restaurants and some current events</li>
+    </ul>
+</div>
+
+<!-- My Projects in this Course -->
+<div id="projects">
+    <h2>My Projects</h2>
+    <ul>
+        <li><a href="https://github.com/projects" target="_blank">Profile Page - Milestone 1</a></li>
+    </ul>
+</div>
+
+<!-- Contact Form -->
+<div id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <label>Email:</label>
+        <input type="email" name="email" value="ryanv1223@gmail.com">
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
