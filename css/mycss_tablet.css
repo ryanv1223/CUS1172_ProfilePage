@@ -1,17 +1,7 @@
-body {
-    background-color: lightblue;
-    margin: 10px;
-}
+body { background-color: lightgoldenrodyellow; margin: 10px; }
 
-div {
-    padding: 10px;
-}
+div { padding: 10px; }
 
-img {
-    width: 100%;
-    height: auto;
-}
+img { width: 100%; height: auto; }
 
-table {
-    width: 100%;
-}
+table { width: 100%; }

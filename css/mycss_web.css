@@ -11,52 +11,22 @@ div {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-ul {
-    list-style-type: square;
-}
+ul { list-style-type: square; }
 
-li {
-    margin-bottom: 5px;
-}
+li { margin-bottom: 5px; }
 
-img {
-    border-radius: 8px;
-    margin-right: 10px;
-}
+img { border-radius: 8px; margin-right: 10px; }
 
-table {
-    border-collapse: collapse;
-    width: 50%;
-}
+table { border-collapse: collapse; width: 50%; }
 
-th, td {
-    padding: 8px;
-    text-align: left;
-}
+th, td { padding: 8px; text-align: left; }
 
-form {
-    margin-top: 10px;
-}
+form { margin-top: 10px; }
 
-a {
-    text-decoration: none;
-    color: blue;
-}
+a { text-decoration: none; color: blue; }
 
-a:hover {
-    color: red;
-    transition: 0.3s;
-}
+a:hover { color: red; transition: 0.3s; }
 
-p {
-    font-size: 16px;
-}
+p { font-size: 16px; }
 
-span {
-    font-weight: bold;
-}
-@media print {
-    a {
-        color: black;
-    }
-}
+span { font-weight: bold; }
