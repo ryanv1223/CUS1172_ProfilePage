@@ -1,128 +1,143 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Ryan Varghese - Profile Page</title>
-
+    <meta charset="UTF-8">
+    <title>Ryan Varghese - Bootstrap Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/mycss_web.css">
+    <link rel="stylesheet" href="css/mycss_tablet.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
         h2 {
-            color: green; 
+            color: navy;
+        }
+        html {
+            scroll-behavior: smooth;
         }
     </style>
-
-
-    <link rel="stylesheet" href="css/mycss_web.css" media="screen and (min-width: 768px)">
-    <link rel="stylesheet" href="css/mycss_tablet.css" media="screen and (max-width: 767px)">
-    <link rel="stylesheet" href="css/mycss_web.css" media="print">
 </head>
 <body>
 
-<!-- Menu Section -->
-<p>
-    <a href="#basic-info">Profile</a> |
-    <a href="#education">Education</a> |
-    <a href="#experience">Experience</a> |
-    <a href="#skills">Skills</a> |
-    <a href="#interests">Interests</a> |
-    <a href="#favorites">Favorites</a> |
-    <a href="#websites">Websites</a> |
-    <a href="#projects">Projects</a> |
-    <a href="#contact">Contact</a>
-</p>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Ryan Varghese</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
+                <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#favorite-websites">Websites</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-<!-- Basic Profile Information -->
-<div id="basic-info">
-    <h1>Ryan Varghese</h1>
-    <p>Major: <span>Computer Science</span></p>
-    <img src="images/IMG_2891.jpeg" alt="Profile Picture" width="200">
-    <img src="https://images.unsplash.com/photo-1624554305378-0f440dd3a8c1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=anil-jose-xavier-Tp-kViKErbw-unsplash.jpg"
-     alt="Third-party image from Unsplash"
-     width="200">
+<div class="container mt-4">
+
+    <div class="row mb-4">
+        <div class="col-md-4 text-center">
+            <img src="images/IMG_2891.jpeg" class="img-fluid rounded shadow" alt="Profile Picture">
+        </div>
+        <div class="col-md-8">
+            <div id="profile-card" class="card p-3 shadow">
+                <h1>Ryan Varghese</h1>
+                <p><strong>Major:</strong> Computer Science</p>
+                <span class="badge bg-primary">Junior</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="education" class="card p-3 mb-4 shadow">
+        <h2>Education</h2>
+        <p>I am currently a Junior studying Computer Science at St. John's University.</p>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>BS Computer Science</td>
+                    <td>2026</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="experience" class="card p-3 mb-4 shadow">
+        <h2>Experience</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Blink Fitness - Front Desk Associate</li>
+            <li class="list-group-item">Telehealth Company - Patient Health Coordinator</li>
+        </ul>
+    </div>
+
+    <div id="skills" class="card p-3 mb-4 shadow">
+        <h2>Skills</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Java - Intermediate</li>
+            <li class="list-group-item">Python - Beginner</li>
+            <li class="list-group-item">HTML - Beginner</li>
+        </ul>
+    </div>
+
+    <div id="interests" class="card p-3 mb-4 shadow">
+        <h2>Interests</h2>
+        <p>I enjoy going to the gym, hanging out with friends and family, and trying new restaurants.</p>
+    </div>
+
+    <div id="favorites" class="card p-3 mb-4 shadow">
+        <h2>Favorites</h2>
+        <p><strong>Song:</strong> Passionfruit by Drake</p>
+        <div class="ratio ratio-16x9 mb-3">
+            <iframe src="https://www.youtube.com/embed/COz9lDCFHjw" title="Passionfruit by Drake" allowfullscreen></iframe>
+        </div>
+        <p><strong>Movie:</strong> Prisoners</p>
+        <div class="ratio ratio-16x9 mb-3">
+            <iframe src="https://www.youtube.com/embed/bpXfcTF6iVk" title="Prisoners Trailer" allowfullscreen></iframe>
+        </div>
+        <p><strong>TV Show:</strong> The Sopranos</p>
+        <div class="ratio ratio-16x9 mb-3">
+            <iframe src="https://www.youtube.com/embed/CKLor3gpaPo" title="The Sopranos Trailer" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div id="projects" class="card p-3 mb-4 shadow">
+        <h2>Projects</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://github.com/ryanv1223/CUS1172_ProfilePage" target="_blank">Profile Page - Milestone 3</a></li>
+        </ul>
+    </div>
+
+    <div id="favorite-websites" class="card p-3 mb-4 shadow">
+        <h2>Favorite Websites</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Helps troubleshoot questions and concerns I have</li>
+            <li class="list-group-item"><a href="https://www.nytimes.com" target="_blank">New York Times</a> - Keeps me posted on top restaurants and current events</li>
+        </ul>
+    </div>
+
+    <div id="contact" class="card p-3 mb-4 shadow">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="mb-3">
+                <label class="form-label">Email:</label>
+                <input type="email" class="form-control" value="ryanv1223@gmail.com">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
 </div>
 
-<!-- Education Summary -->
-<div id="education">
-    <h2>Education</h2>
-    <p>I am currently a Junior studying Computer Science at St. John's University.</p>
-    <table border="1">
-        <tr>
-            <th>Degree</th>
-            <th>Year</th>
-        </tr>
-        <tr>
-            <td>BS Computer Science</td>
-            <td>2026</td>
-        </tr>
-    </table>
-</div>
-
-<!-- Work Experience / Internships -->
-<div id="experience">
-    <h2>Experience</h2>
-    <ul>
-        <li>Blink Fitness - Front Desk Associate</li>
-        <li>Telehealth Company - Patient Health Coordinator</li>
-    </ul>
-</div>
-
-<!-- Programming Skills -->
-<div id="skills">
-    <h2>Skills</h2>
-    <ul>
-        <li>Java - Intermediate</li>
-        <li>Python - Beginner</li>
-        <li>HTML - Beginner</li>
-    </ul>
-</div>
-
-<!-- General Interests -->
-<div id="interests">
-    <h2>Interests</h2>
-    <p>I enjoy going to the gym, hanging out with friends and family, and going out to eat.</p>
-</div>
-
-<!-- Favorite Song, Movie, TV Show -->
-<div id="favorites">
-    <h2>Favorites</h2>
-
-    <p>Song: Passionfruit by Drake</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/COz9lDCFHjw?si=pm9ZG4bI0yhixJPH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   
-    <p>Movie: Prisoners</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/bpXfcTF6iVk?si=z47HPozMQANgKYpu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-    <p>TV Show: The Sopranos</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/CKLor3gpaPo?si=3XdbNSkxrs9PY0qW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
-<!-- Favorite Websites -->
-<div id="websites">
-    <h2>Favorite Websites</h2>
-    <ul>
-        <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Helps troubleshoot questions and concerns I have</li>
-        <li><a href="https://www.nytimes.com" target="_blank">New York Times</a> - Keeps me posted on top restaurants and some current events</li>
-    </ul>
-</div>
-
-<!-- My Projects in this Course -->
-<div id="projects">
-    <h2>My Projects</h2>
-    <ul>
-        <li><a href="https://github.com/projects" target="_blank">Profile Page - Milestone 1</a></li>
-    </ul>
-</div>
-
-<!-- Contact Form -->
-<div id="contact">
-    <h2>Contact Me</h2>
-    <form>
-        <label>Email:</label>
-        <input type="email" name="email" value="ryanv1223@gmail.com">
-        <input type="submit" value="Submit">
-    </form>
-</div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
