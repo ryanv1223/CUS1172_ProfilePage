@@ -19,10 +19,23 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Ryan Varghese</a>
+  <div class="container">
+    <a class="navbar-brand" href="#">Ryan Varghese</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
     </div>
+  </div>
 </nav>
+
 
 <div class="container mt-4">
 
@@ -32,7 +45,7 @@
         </div>
 
         <div class="col-md-8">
-            <div class="card p-3 shadow">
+            <div id="profile-card" class="card p-3 shadow">
                 <h1>Ryan Varghese</h1>
                 <p><strong>Major:</strong> Computer Science</p>
                 <span class="badge bg-primary">Junior</span>
@@ -40,7 +53,7 @@
         </div>
     </div>
 
-    <div class="card p-3 mb-4 shadow">
+    <div id ="education" class="card p-3 mb-4 shadow">
         <h2>Education</h2>
         <p>I am currently a Junior studying Computer Science at St. John's University.</p>
 
@@ -60,7 +73,7 @@
         </table>
     </div>
 
-    <div class="card p-3 mb-4 shadow">
+    <div id="experience" class="card p-3 mb-4 shadow">
         <h2>Experience</h2>
         <ul class="list-group">
             <li class="list-group-item">Blink Fitness - Front Desk Associate</li>
@@ -68,7 +81,7 @@
         </ul>
     </div>
 
-    <div class="card p-3 mb-4 shadow">
+    <div id="skills" class="card p-3 mb-4 shadow">
         <h2>Skills</h2>
         <ul class="list-group">
             <li class="list-group-item">Java - Intermediate</li>
@@ -77,19 +90,19 @@
         </ul>
     </div>
 
-    <div class="card p-3 mb-4 shadow">
+    <div id="interests" class="card p-3 mb-4 shadow">
         <h2>Interests</h2>
         <p>I enjoy going to the gym, hanging out with friends and family, and trying new restaurants.</p>
     </div>
 
-    <div class="card p-3 mb-4 shadow">
+    <div id="favorites" class="card p-3 mb-4 shadow">
         <h2>Favorites</h2>
         <p><strong>Song:</strong> Passionfruit by Drake</p>
         <p><strong>Movie:</strong> Prisoners</p>
         <p><strong>TV Show:</strong> The Sopranos</p>
     </div>
 
-    <div class="card p-3 mb-4 shadow">
+    <div id="favorite-websites" class="card p-3 mb-4 shadow">
         <h2>Favorite Websites</h2>
         <ul>
             <li><a href="https://chat.openai.com" target="_blank">ChatGPT</a></li>
@@ -97,7 +110,7 @@
         </ul>
     </div>
 
-    <div class="card p-3 mb-4 shadow">
+    <div id="contact" class="card p-3 mb-4 shadow">
         <h2>Contact Me</h2>
         <form>
             <div class="mb-3">
