@@ -7,35 +7,41 @@
     <link rel="stylesheet" href="css/mycss_web.css">
     <link rel="stylesheet" href="css/mycss_tablet.css">
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fefbd8; 
+            scroll-behavior: smooth;
+        }
         h2 {
             color: navy;
         }
-        html {
-            scroll-behavior: smooth;
+        .navbar-nav .nav-link:hover {
+            color: #ffd700 !important;
         }
     </style>
 </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">Ryan Varghese</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
-                <li class="nav-item"><a class="nav-link" href="#favorites">Favorites</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#favorite-websites">Websites</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
+  <div class="container">
+    <a class="navbar-brand" href="#">Ryan Varghese</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-white" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#interests">Interests</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#favorites">Favorites</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#favorite-websites">Websites</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+      </ul>
     </div>
+  </div>
 </nav>
 
 <div class="container mt-4">
@@ -120,8 +126,8 @@
     <div id="favorite-websites" class="card p-3 mb-4 shadow">
         <h2>Favorite Websites</h2>
         <ul class="list-group">
-            <li class="list-group-item"><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Helps troubleshoot questions and concerns I have</li>
-            <li class="list-group-item"><a href="https://www.nytimes.com" target="_blank">New York Times</a> - Keeps me posted on top restaurants and current events</li>
+            <li class="list-group-item"><a href="https://chat.openai.com" target="_blank">ChatGPT</a> - Helps troubleshoot questions</li>
+            <li class="list-group-item"><a href="https://www.nytimes.com" target="_blank">New York Times</a> - Keeps me posted on top restaurants and news</li>
         </ul>
     </div>
 
