@@ -33,7 +33,7 @@
 
 <!-- Basic Profile Information -->
 <div id="basic-info">
-    <h1 style="color: red (1, 0, 0);">Ryan Varghese</h1>
+    <h1 style="color: darkblue (1, 0, 0);">Ryan Varghese</h1>
     <p>Major: <span>Computer Science</span></p>
     <img src="images/IMG_2891.jpeg" alt="Profile Picture" width="200">
     <img src="https://images.unsplash.com/photo-1624554305378-0f440dd3a8c1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&dl=anil-jose-xavier-Tp-kViKErbw-unsplash.jpg"
