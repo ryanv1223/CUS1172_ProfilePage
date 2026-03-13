@@ -62,7 +62,7 @@ CUS1172_ProfilePage/
 🌐 Live Website
 
 View the deployed website here:
-https://ryanv1223.github.io/CUS1172_ProfilePage/
+[https://ryanv1223.github.io/CUS1172_ProfilePage/](https://ryanv1223.github.io/CUS1172_ProfilePage/)
 
 🎯 Learning Objectives
 
